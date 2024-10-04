@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title"
+          content="Futbol, hobi ve eğlence dünyasında önemli bir yere sahiptir. Pin-up ile futbol, hem dinlenme hem de keyif dolu bir aktivite olarak karşınıza çıkar.">
+    <meta name="description"
+          content="Futbol, hobi ve eğlence dünyasında önemli bir yere sahiptir. Pin-up ile futbol, hem dinlenme hem de keyif dolu bir aktivite olarak karşınıza çıkar.">
+    <title>Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up Dünyasında Futbol Tutkusu </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <style>
+
+      .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Roboto, sans-serif;
+        background-color: #68b67340;
+        color: #333;
+        line-height: 1.6;
+      }
+
+
+      nav {
+        background-color: #0032a8;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      .container_forry_dev {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+
+      header {
+        background-color: #318b40;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+
+      .hero_forry_dev {
+        position: relative;
+        max-width: 1200px;
+        margin: 20px auto;
+        overflow: hidden;
+      }
+
+      .hero_forry_dev img {
+        width: 100%;
+        height: auto;
+      }
+
+      .hero-content_forry_dev {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
+
+      .hero-content_forry_dev h2 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .hero-content_forry_dev p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+
+      .hero-content_forry_dev a.btn_forry_dev {
+        background-color: #f00d0d;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+
+      .section_forry_dev {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin: 20px 0;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      .section_forry_dev img {
+        max-width: 45%;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 20px;
+      }
+
+      .section-content_forry_dev {
+        max-width: 50%;
+      }
+
+      .section_dev_forry_dev h2, .section_forry_dev h3 {
+        color: #1e90ff;
+        margin-bottom: 15px;
+      }
+
+      footer {
+        background-color: #0032a8;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+
+      @media (min-width: 992px) {
+        .section_forry_dev {
+          padding: 30px;
+        }
+
+        header h1 {
+          font-size: 3em;
+        }
+
+        header p {
+          font-size: 1.4em;
+        }
+      }
+
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        .section_forry_dev {
+          padding: 25px;
+        }
+
+        .section_forry_dev img {
+          max-width: 50%;
+        }
+
+        .section-content_forry_dev {
+          max-width: 48%;
+        }
+
+        header_forry_dev h1 {
+          font-size: 2.5em;
+        }
+
+        header_forry_dev p {
+          font-size: 1.2em;
+        }
+      }
+
+
+      @media (max-width: 767px) {
+        .section_forry_dev {
+          flex-direction: column;
+          text-align: center;
+          padding: 15px;
+        }
+
+        .section_forry_dev img {
+          max-width: 100%;
+          margin: 10px 0;
+        }
+
+        .section-content_forry_dev {
+          max-width: 100%;
+        }
+
+        header h1 {
+          font-size: 2em;
+        }
+
+        header p {
+          font-size: 1em;
+        }
+        nav a {
+          font-size: 12px;
+          white-space: nowrap;
+        }
+        .hero_forry_dev img {
+          height: 300px;
+          object-fit: cover;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .section_forry_dev {
+          padding: 10px;
+        }
+
+        header_forry_dev h1 {
+          font-size: 1.5em;
+        }
+
+        header p {
+          font-size: 0.9em;
+        }
+
+        .section-content_forry_dev {
+          font-size: 0.9em;
+        }
+      }
+
+
+      @media (max-width: 767px) {
+        .hero-content_forry_dev {
+          padding: 10px;
+          width: 100%;
+        }
+
+        .hero-content_forry_dev h2 {
+          font-size: 14px!important;
+        }
+
+        .hero-content_forry_dev p {
+          font-size: 10px!important;
+        }
+
+        .hero-content_forry_dev a.btn_forry_dev {
+          padding: 8px 15px;
+        }
+      }
+
+
+      @media (max-width: 480px) {
+        .hero-content_forry_dev h2 {
+          font-size: 1.5em;
+        }
+
+        .hero-content_forry_dev p {
+          font-size: 0.9em;
+        }
+      }
+
+
+      @media (min-width: 992px) {
+        .hero-content_forry_dev h2 {
+          font-size: 3em;
+        }
+
+        .hero-content_forry_dev p {
+          font-size: 1.5em;
+        }
+      }
+
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        .hero-content_forry_dev h2 {
+          font-size: 2.5em;
+        }
+
+        .hero-content_forry_dev p {
+          font-size: 1.2em;
+        }
+      }
+
+      .carousel-container {
+        position: relative;
+        width: 80%;
+        margin: 50px auto;
+        overflow: hidden;
+      }
+
+      .carousel-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+
+      .carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .carousel-item {
+        min-width: 33.3333%; /* Each slide takes up 1/3 of the container */
+        box-sizing: border-box;
+      }
+
+      .carousel-item img {
+        width: 100%;
+        display: block;
+      }
+
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 24px;
+        z-index: 100;
+      }
+
+      .prev-btn {
+        left: 0;
+      }
+
+      .next-btn {
+        right: 0;
+      }
+
+      .carousel-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      #original {
+        font-family: 'Open Sans', sans-serif !important;
+        direction: ltr;
+        font-size: 1em;
+        margin: 0;
+        background-color: #07498f;
+        color: #fff;
+      }
+
+      .wrap__btn--PxHri--section {
+        background-image: url('img/bg-desc.png');
+        background-size: cover;
+        width: 914px;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .logo-img {
+        margin-bottom: 20px;
+        width: 200px;
+        height: auto;
+      }
+
+      .button {
+        align-items: center;
+        background: #FFFFFF;
+        border: 0 solid #E2E8F0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-sizing: border-box;
+        color: #1A202C;
+        display: inline-flex;
+        font-weight: 700;
+        height: 56px;
+        justify-content: center;
+        line-height: 24px;
+        overflow-wrap: break-word;
+        padding: 24px;
+        text-decoration: none;
+        width: auto;
+        border-radius: 8px;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      .button {
+        padding: 29px 55px;
+        font-size: 18px;
+        text-decoration: none !important;
+      }
+
+      .main__img--l83Xf--section {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.0);
+        padding: 19px;
+        border-radius: 0px;
+        padding: 46px;
+      }
+
+      .main__img--l83Xf--section h1 {
+        font-weight: 400;
+        font-size: 37px;
+        border-bottom: 1px dotted #ccc;
+        padding-bottom: 22px;
+        margin-top: 0px;
+      }
+
+      .button__header--0mbZF--element {
+        display: flex;
+        gap: 29px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 22px;
+      }
+
+      #main {
+        display: block;
+      }
+
+      #original {
+        display: none;
+      }
+
+      .button-yes {
+        background: #04cfa6;
+        box-shadow: 0 2px #082144;
+        transition: 0.5s;
+      }
+
+      .button-no {
+        background: #ff2401 !important;
+        padding: 29px 55px;
+        font-size: 18px;
+        text-decoration: none;
+        box-shadow: 0 3px #082144;
+      }
+
+      @media (max-width: 1200px) {
+        .wrap__btn--PxHri--section {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .button__header--0mbZF--element {
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 768px) {
+        #main {
+          display: none;
+        }
+
+        #original {
+          display: block;
+        }
+
+        .hero-image {
+          width: 100%;
+        }
+      }
+    </style>
+</head>
+<body>
+<div id="main">
+
+<header>
+    <h1>Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up</h1>
+    <p>Futbol, dünyada milyonlarca insanın hayatında önemli bir yer edinmiş bir aktivitedir. Hem profesyonel düzeyde hem
+        de amatör seviyede oynanan futbol, aynı zamanda sosyal bir hobi, keyifli bir dinlence ve birçok insan için bir
+        eğlence kaynağı olarak kabul edilir. Pin-up tarzında futbol, sporun sadece izleyicisi olmakla sınırlı kalmayan,
+        onu bir yaşam biçimi olarak benimseyenler için harika bir tercih olabilir.</p>
+</header>
+
+<nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="#about">Futbol Hakkında</a>
+    <a href="policy.html">Gizlilik Politikası</a>
+    <a href="terms.html">Şartlar ve koşullar</a>
+    <a href="#contact">İletişim</a>
+</nav>
+
+<div class="container_forry_dev">
+
+    <div class="hero_forry_dev">
+        <img src="img/1_mage.jpg" alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+        <div class="hero-content_forry_dev">
+            <h2 style="
+    font-size: 23px;
+">Futbol, sadece bir spor değil, aynı zamanda sosyal bir aktivitedir. </h2>
+            <p style="
+    font-size: 20px;
+">tarzında futbol, insanların bir araya gelip keyifli vakit geçirdiği, arkadaşlıklarını güçlendirdiği ve stresten
+                arındığı bir ortam sunar. Futbol, özellikle hafta sonları ve tatil günlerinde tercih edilen popüler bir
+                dinlenme şeklidir.</p>
+            <a href="#awards_forry_dev" class="btn_forry_dev">Uzan daha fazla</a>
+        </div>
+    </div>
+
+
+    <section id="power_forry_dev" class="section_forry_dev">
+        <img src="img/2mage_that_represents_football_as_a_2.jpg"
+             alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+        <div class="section-content_forry_dev">
+            <h2>Eğlence Dünyasında Futbolun Yeri Pin-Up</h2>
+            <p>
+                Futbol, eğlence dünyasında her zaman önemli bir yer tutmuştur. Pin-up futbolu, heyecan dolu anlarıyla
+                milyonlarca insanı ekrana kilitleyen bir etkinliktir. Futbol, televizyon başında geçirilen boş zamanları
+                daha keyifli hale getirir ve birçok insan için vazgeçilmez bir eğlence aracıdır. Özellikle büyük
+                turnuvalar ve lig maçları, insanların tutkuyla izlediği etkinlikler arasında yer alır. </p>
+        </div>
+
+    </section>
+
+
+    <div class="carousel-container">
+        <button class="carousel-btn prev-btn">&#10094;</button>
+        <div class="carousel-wrapper">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="img/4image_that_represents_football_as_a_0.jpg" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/234.jpeg" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/345345.jpeg" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4image_that_represents_football_as_a_0.jpg" alt="Image 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/512e-9c91-ff4bf95f5ccb.jpeg" alt="Image 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4image_that_represents_football_as_a_0.jpg" alt="Image 6">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+        <button class="carousel-btn next-btn">&#10095;</button>
+    </div>
+
+
+    <section id="about" class="section_forry_dev">
+        <div class="section-content_forry_dev">
+            <h2>Futbolun Hobi Olarak Önemi Pin-Up</h2>
+            <p>
+                Birçok kişi için futbol, sadece bir spor değil, aynı zamanda bir hobidir. Pin-up dünyasında, bu hobi
+                sayesinde insanlar stresten uzaklaşır, vücutlarını zinde tutar ve sosyalleşme fırsatı bulurlar. Futbolun
+                hobi olarak benimsenmesi, kişisel gelişime katkıda bulunur. Futbol oynayan bireyler, taktiksel düşünme
+                yeteneklerini geliştirir, takım çalışmasını öğrenir ve fiziksel aktiviteler sayesinde sağlıklı kalırlar.
+                Hobi olarak futbol, aynı zamanda kişinin karakterine de katkı sağlar. İnsanlar, futbol oynarken empati
+                kurmayı, liderlik yapmayı ve zor durumlarla başa çıkmayı öğrenirler. Pin-up dünyasında futbol, sadece
+                fiziksel değil, zihinsel ve duygusal gelişimi de destekler.
+            </p>
+        </div>
+        <img src="img/3image_that_represents_football_as_a_1.jpg"
+             alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+    </section>
+
+    <section id="awards_forry_dev" class="section_forry_dev">
+        <img src="img/4image_that_represents_football_as_a_0.jpg"
+             alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-UpFutbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+        <div class="section-content_forry_dev">
+            <h3>Futbolun Boş Zamanları Değerlendirme Yolu Pin-Up</h3>
+            <p>
+                Futbol, hobi, dinlenme ve eğlenceyi bir araya getiren bir platformdur. Pin-up futbol etkinlikleri, bu
+                birleşimin en güzel örneğidir. Hem sahada oynayanlar hem de izleyiciler için futbol, hayatın vazgeçilmez
+                bir parçasıdır. Futbol, özellikle boş zamanları keyifli bir şekilde değerlendirmek için harika bir
+                seçenektir. Pin-up tarzında futbol, bireylere enerjilerini atma ve eğlenme fırsatı sunar. İş hayatının
+                ve günlük streslerin getirdiği yorgunluk, futbol oynayarak ya da izleyerek atılabilir. Futbol, hem
+                bireysel hem de grup olarak katılabileceğiniz bir aktivite olduğundan, arkadaşlarınızla ya da ailenizle
+                keyifli anlar paylaşabilirsiniz. Bu bağlamda futbol, pin-up dünyasında en eğlenceli ve dinlendirici boş
+                zaman aktivitelerinden biri olarak öne çıkar.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="section_forry_dev">
+        <div class="section-content_forry_dev">
+            <h3>Futbol: Bir Tutkunun Peşinden Gitmek Pin-Up</h3>
+            <p>
+                Futbol, birçok insan için sadece bir hobi değil, aynı zamanda bir tutku haline gelmiştir. Pin-up
+                futbolu, bu tutkunun daha da derinleşmesine ve kişilerin hayatında önemli bir yere sahip olmasına katkı
+                sağlar. Futbol oynarken ya da izlerken yaşanan heyecan, insanlara enerji ve mutluluk verir. Tutku haline
+                gelen futbol, bireylerin boş vakitlerini değerlendirmenin ötesine geçer; bu tutku, hayatın bir parçası
+                olur. Pin-up futbol atmosferinde, insanlar hem eğlenceli vakit geçirir hem de bu tutkuyu doyasıya
+                yaşar. </p>
+        </div>
+        <img src="img/68c03-2b0eec392f88.jpeg" alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+    </section>
+    <section class="section_forry_dev">
+        <div class="section-content_forry_dev">
+            <h3>Futbol, Hobi, Dinlence ve Eğlencenin Buluştuğu Nokta Pin-Up</h3>
+            <p>
+                Futbol, sadece bir spor dalı değil, aynı zamanda milyonlarca insan için bir tutku, hobi ve dinlenme
+                aracıdır. Pin-up futbol, bireylerin fiziksel, zihinsel ve sosyal gelişimlerine katkı sağlar. Aynı
+                zamanda, futbol izleyicileri için de vazgeçilmez bir eğlence kaynağıdır. Her yaştan insan, futbolun
+                büyüsüne kapılır ve bu aktivite sayesinde keyifli zaman geçirir. </p>
+        </div>
+        <img src="img/512e-9c91-ff4bf95f5ccb.jpeg" alt="Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up">
+    </section>
+
+
+</div>
+
+<footer id="contact">
+    <p>&copy; 2024 Futbol: Hobi, Düğüm Noktası ve Eğlence Kaynağı Pin-Up - Tüm hakları saklıdır. | Olimpiya Stadionu,
+        Böyükşor gölünün yanı, Baku, Azerbaijan | +994505554440</p>
+</footer>
+
+
+<script>
+    const carousel = document.querySelector('.carousel');
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    const prevButton = document.querySelector('.prev-btn');
+    const nextButton = document.querySelector('.next-btn');
+
+    let currentIndex = 0;
+    const itemsToShow = 3; // Number of items to show per slide
+    const totalItems = carouselItems.length;
+
+    prevButton.addEventListener('click', () => {
+        // Move the carousel to the left
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = Math.floor(totalItems / itemsToShow) - 1;
+        }
+        updateCarousel();
+    });
+
+    nextButton.addEventListener('click', () => {
+        // Move the carousel to the right
+        if (currentIndex < Math.floor(totalItems / itemsToShow) - 1) {
+            currentIndex++;
+        } else {
+            currentIndex = 0;
+        }
+        updateCarousel();
+    });
+
+    function updateCarousel() {
+        carousel.style.transform = `translateX(-${currentIndex * (100 / itemsToShow)}%)`;
+    }
+
+
+</script>
+</div>
+<div id="original">
+    <div class="wrap__btn--PxHri--section">
+        <div class="main__img--l83Xf--section">
+            <img src="img/logo.svg" alt="Logo" class="logo-img">
+            <h1>– 18 yaşınız var?</h1>
+            <div class="button__header--0mbZF--element">
+                <a href="#" class="button button-yes">Bəli</a>
+                <a href="#" class="button button-no">Xeyr</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up",
+        "url": "",
+        "logo": "/favicon/favicon.ico"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WPHeader",
+        "headline": "Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up",
+        "description": "Futbol, hobi ve eğlence dünyasında önemli bir yere sahiptir. Pin-up ile futbol, hem dinlenme hem de keyif dolu bir aktivite olarak karşınıza çıkar.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "/favicon/favicon.ico"
+            }
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up",
+        "description": "Futbol, hobi ve eğlence dünyasında önemli bir yere sahiptir. Pin-up ile futbol, hem dinlenme hem de keyif dolu bir aktivite olarak karşınıza çıkar.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Futbol: Hobi, Dinlenme ve Eğlence - Pin-Up"
+        },
+        "license": "A license document that applies to this content, typically indicated by URL"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SiteNavigationElement",
+        "name": "Main Navigation",
+        "url": "",
+        "hasPart": [
+            {
+                "@type": "WebPage",
+                "name": "Home",
+                "url": ""
+            },
+            {
+                "@type": "WebPage",
+                "name": "Policy",
+                "url": "/policy.html"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Terms of Conditions",
+                "url": "/terms.html"
+            }
+        ]
+    }
+</script>
+</html>
