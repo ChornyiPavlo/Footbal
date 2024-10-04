@@ -3,5 +3,5 @@ User-Agent: *
 Disallow:
 
 
-Sitemap: http://pin-up.futbolhobi.xyz/sitemap.xml
-Host: pin-up.futbolhobi.xyz
+Sitemap: http://pinapaz.fbhobby.pro/sitemap.xml
+Host: pinapaz.fbhobby.pro
